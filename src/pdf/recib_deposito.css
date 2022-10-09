@@ -1,0 +1,53 @@
+*{
+	font-family:arial;
+}
+.corpo{
+	padding: 10px;
+	text-align: justify;
+}
+.cabecario{
+text-align: center;
+}
+
+.cabecario h5{
+	margin: 0px;
+	font-weight: bold;
+	
+}
+.cabecario img{
+	margin: 0px;
+}
+div .header{
+	text-align: center;
+	margin-top: 30px;
+}
+
+div .header h4,div .header h5{
+	margin: 0px;
+	padding:3px; 
+	text-decoration: underline;
+}
+
+.falecido{
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.falecido .idade{
+	text-align: justify;
+}
+.parentes{
+	margin-top: 10px;
+background: rgba(00,00,00,0.00);
+text-align: justify;
+}
+.testemunha{
+text-align: justify;
+}
+.assinatura{
+margin-top: 200px;
+}
+
+.assinatura span{
+	text-align: center;
+}

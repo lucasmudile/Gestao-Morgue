@@ -1,0 +1,114 @@
+body{
+	background: #900;
+}
+img {
+  border: 0;
+}
+.div-top {
+  float: center;
+  width: 900px;
+  margin: auto;
+}
+.div-top img {
+  margin-top: 10px;
+}
+.escola_logo {
+  float: left;
+}
+.academus_logo {
+  float: right;
+}
+
+.left-side-text {
+  float: left;
+  max-width: 300px;
+  margin-left: 10px;
+}
+.left-side-text * {
+  width: 100%;
+  float: left;
+}
+.right-side-text {
+  float: right;
+  max-width: 300px;
+  margin-right: 10px;
+  text-align: right;
+}
+.right-side-text * {
+  float: right;
+  width: 100%;
+}
+small {
+  font-family: 'Lato', sans-serif;
+}
+h3 {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  margin: 10px 0px 0px 0px;
+}
+h4 {
+  color: rgb(127, 127, 127);
+  font-size: 14px;
+}
+h5 {
+  color: rgb(191, 191, 191);
+  font-size: 10px;
+}
+.titulo-relatorio {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.box-externa {
+  float: center;
+  border: 0.5px solid rgb(217, 217, 217);
+  width: 900px;
+  margin: auto;
+}
+.box-interna {
+  border: 1px solid rgb(166, 166, 166);
+  width: 850px;
+  margin: 15px auto 0 auto;
+  float: center;
+  padding: 10px;
+}
+.box-interna:last-of-type {
+  margin-bottom: 15px;
+}
+.box-grafico {
+  width: 850px;
+  margin: 15px auto 0 auto;
+  float: center;
+  padding: 10px;
+}
+body {
+  font-family: open sans;
+}
+p {
+  margin: 8px 0 8px 0;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid gray;
+  margin: auto;
+}
+.grey-box {
+  background-color: gray;
+  width: 400px;
+  margin: auto;
+}
+.indicador-titulo {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.indicador-valores {
+  float: left;
+  width: 800px;
+  margin-left: 25px;
+}

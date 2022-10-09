@@ -1,0 +1,62 @@
+body
+{
+    
+    font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10pt;
+    line-height: 1;
+    margin: 0PX;
+}
+
+img
+{
+    border: 0;
+}
+
+.adianti_container
+{
+    margin: auto;
+   /* margin-top: 10px;*/
+    width: 90%;
+    min-height: 570px;
+    display: block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    height: auto;
+    float: center;
+    align-items: center;
+    text-align: left;
+}
+
+.adianti_container .header_content
+{
+    float: left;
+    width: 100%;
+}
+
+.adianti_container .header_content .logo1 a
+{
+    text-decoration: none;
+}
+
+.adianti_container .header_content .logo1
+{
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-left: 2%;
+    float: left;
+    text-align: left;
+    font-size:9pt;
+}
+
+
+.adianti_container .header
+{
+    background: #FFFFFF;
+    border-bottom: 2px solid #555555;
+}
+.adianti_container .header .header_bottom
+{
+    height: 2px;
+    margin-top: 50px;
+    background-color: #CACFD5;
+}

@@ -1,0 +1,12 @@
+ Select(select count(id_cadaver) from cadaver where month(data_registo)=1 and year(data_registo)=year(now()) and statu='Depositado')as Janeiro,
+ (select count(id_cadaver) from cadaver where month(data_registo)=2 and year(data_registo)=year(now()) and statu='Depositado')as Fevereiro,
+ (select count(id_cadaver) from cadaver where month(data_registo)=3 and year(data_registo)=year(now()) and statu='Depositado')as Marco,
+ (select count(id_cadaver) from cadaver where month(data_registo)=4 and year(data_registo)=year(now()) and statu='Depositado' )as Abril,
+ (select count(id_cadaver) from cadaver where month(data_registo)=5 and year(data_registo)=year(now()) and statu='Depositado')as Maio,
+ (select count(id_cadaver) from cadaver where month(data_registo)=6 and year(data_registo)=year(now()) and statu='Depositado')as Junho,
+ (select count(id_cadaver) from cadaver where month(data_registo)=7 and year(data_registo)=year(now()) and statu='Depositado')as Julho,
+ (select count(id_cadaver) from cadaver where month(data_registo)=8 and year(data_registo)=year(now()) and statu='Depositado')as Agosto,
+ (select count(id_cadaver) from cadaver where month(data_registo)=9 and year(data_registo)=year(now()) and statu='Depositado')as Setembro,
+ (select count(id_cadaver) from cadaver where month(data_registo)=10 and year(data_registo)=year(now()) and statu='Depositado')as Outubro,
+ (select count(id_cadaver) from cadaver where month(data_registo)=11 and year(data_registo)=year(now()) and statu='Depositado')as Novmebro,
+ (select count(id_cadaver) from cadaver where month(data_registo)=12 and year(data_registo)=year(now()) and statu='Depositado')as Dezembro
